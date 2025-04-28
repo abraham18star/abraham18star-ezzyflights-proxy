@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ezzyflights - Tu Agencia de Viajes Fácil y Moderna</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="#">Ezzyflights</a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="dropdown">
+                        <a href="#">Mis Reservas</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Vuelos</a></li>
+                            <li><a href="#">Paquetes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Mis Viajes</a></li>
+                    <li><a href="#">Perfil</a></li>
+                    <li class="dropdown">
+                        <a href="#">Idioma</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Español</a></li>
+                            <li><a href="#">Inglés</a></li>
+                            <li><a href="#">Francés</a></li>
+                            </ul>
+                    </li>
+                    <li><a href="#">Información del Viaje</a></li>
+                    <li><a href="#">Iniciar Sesión</a></li>
+                    <li><a href="#" class="contact-button">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="search-hero">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-options">
+                    <label><input type="radio" name="trip-type" value="ida" checked> Ida</label>
+                    <label><input type="radio" name="trip-type" value="ida-vuelta"> Ida y Vuelta</label>
+                </div>
+                <div class="input-group">
+                    <label for="passengers">Pasajeros:</label>
+                    <select id="passengers">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        </select>
+                </div>
+                <div class="input-group">
+                    <label for="origin">Desde:</label>
+                    <input type="text" id="origin" placeholder="Ciudad o aeropuerto">
+                </div>
+                <div class="input-group">
+                    <label for="destination">Hacia:</label>
+                    <input type="text" id="destination" placeholder="Ciudad o aeropuerto">
+                </div>
+                <div class="input-group">
+                    <label for="departure-date">Ida:</label>
+                    <input type="date" id="departure-date">
+                </div>
+                <div class="input-group return-date-group">
+                    <label for="return-date">Vuelta:</label>
+                    <input type="date" id="return-date">
+                </div>
+                <button class="search-button">Buscar</button>
+            </div>
+            <div class="hero">
+                <div class="hero-content">
+                    <h1>Descubre el Mundo con Ezzyflights</h1>
+                    <p>Tu puerta de entrada a experiencias de viaje inolvidables. ¡Encuentra las mejores ofertas y planifica tu próxima aventura con nosotros!</p>
+                    <a href="#" class="cta-button">Explora Destinos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h2>Nuestros Servicios</h2>
+            <div class="services-grid">
+                <div class="service-item">
+                    <img src="https://via.placeholder.com/80/007bff/FFFFFF?Text=Vuelos" alt="Vuelos">
+                    <h3>Vuelos Baratos</h3>
+                    <p>Encuentra las mejores tarifas aéreas para tu próximo destino.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://via.placeholder.com/80/28a745/FFFFFF?Text=Hoteles" alt="Hoteles">
+                    <h3>Hoteles Increíbles</h3>
+                    <p>Reserva estancias confortables en los mejores hoteles del mundo.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://via.placeholder.com/80/dc3545/FFFFFF?Text=Paquetes" alt="Paquetes">
+                    <h3>Paquetes de Viaje</h3>
+                    <p>Combina vuelos y hoteles para ahorrar en tu viaje.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://via.placeholder.com/80/ffc107/000000?Text=Tours" alt="Tours">
+                    <h3>Tours y Actividades</h3>
+                    <p>Descubre experiencias únicas en cada destino.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://via.placeholder.com/80/17a2b8/FFFFFF?Text=Traslados" alt="Traslados">
+                    <h3>Traslados Seguros</h3>
+                    <p>Reserva traslados desde y hacia el aeropuerto sin complicaciones.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://via.placeholder.com/80/6c757d/FFFFFF?Text=Autos" alt="Alquiler de Autos">
+                    <h3>Alquiler de Autos</h3>
+                    <p>Explora tu destino a tu propio ritmo con nuestras opciones de alquiler.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://via.placeholder.com/400/f8f9fa/868e96?Text=Imagen+Nosotros" alt="Sobre Nosotros">
+                </div>
+                <div class="about-text">
+                    <h2>¿Quiénes Somos?</h2>
+                    <p>En Ezzyflights, nuestra pasión es hacer que tus sueños de viaje se hagan realidad de la manera más fácil y placentera posible. Somos un equipo de expertos en viajes dedicados a ofrecerte las mejores opciones y un servicio excepcional en cada paso de tu aventura.</p>
+                    <a href="#" class="cta-button">Conoce Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            <h2>Lo que Dicen Nuestros Clientes</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-item">
+                    <img src="https://randomuser.me/api/portraits/women/1.jpg" alt="Cliente 1">
+                    <p>"¡Increíble experiencia con Ezzyflights! Encontré vuelos baratos y un hotel fantástico en cuestión de minutos. ¡Definitivamente los recomiendo!"</p>
+                    <p class="client-name">- Laura M.</p>
+                </div>
+                <div class="testimonial-item">
+                    <img src="https://randomuser.me/api/portraits/men/2.jpg" alt="Cliente 2">
+                    <p>"La plataforma es muy fácil de usar y el equipo de soporte fue muy atento cuando necesité ayuda. ¡Planificar mi viaje nunca había sido tan sencillo!"</p>
+                    <p class="client-name">- Carlos P.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
